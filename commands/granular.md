@@ -6,6 +6,11 @@ description: Create granular commits - split by diff hunks
 
 Split by diff hunks - allows splitting changes within a single file across multiple commits. Best for modified files with multiple logical changes.
 
+## Rules (NON-NEGOTIABLE)
+
+- **NEVER** add `Co-Authored-By`, `Co-authored-by`, or any AI attribution trailer to commit messages. gitBahn commits must look entirely human-authored.
+- **Batch confirmation**: Plan ALL commits first. Display a table showing each commit (order, hunks, proposed message, timestamp if applicable). Ask for confirmation ONCE. On approval, execute all commits without further prompts.
+
 ## How to Use
 
 When the user asks for "granular commits", follow this workflow:

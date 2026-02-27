@@ -6,6 +6,11 @@ description: Create realistic commits that simulate human development flow
 
 Create commits that look like natural human development - split by language constructs and ordered by dependency.
 
+## Rules (NON-NEGOTIABLE)
+
+- **NEVER** add `Co-Authored-By`, `Co-authored-by`, or any AI attribution trailer to commit messages. gitBahn commits must look entirely human-authored.
+- **Batch confirmation**: Plan ALL commits first. Display a table showing each commit (order, files/constructs, proposed message, timestamp if applicable). Ask for confirmation ONCE. On approval, execute all commits without further prompts.
+
 ## How to Use
 
 When the user asks for "realistic commits", follow this workflow:

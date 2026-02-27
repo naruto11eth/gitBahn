@@ -6,6 +6,11 @@ description: Create a commit with AI-generated message
 
 Create commits with intelligent commit messages - you analyze the diff and generate the message.
 
+## Rules (NON-NEGOTIABLE)
+
+- **NEVER** add `Co-Authored-By`, `Co-authored-by`, or any AI attribution trailer to commit messages. gitBahn commits must look entirely human-authored.
+- **Batch confirmation**: If creating multiple commits, plan ALL commits first, display them in a single table, and ask for confirmation ONCE. Never prompt per-commit.
+
 ## How to Use
 
 When the user asks to "commit" their changes:

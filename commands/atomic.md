@@ -6,6 +6,11 @@ description: Create atomic commits - one file per commit
 
 Split changes so each file becomes its own commit. Simple and quick.
 
+## Rules (NON-NEGOTIABLE)
+
+- **NEVER** add `Co-Authored-By`, `Co-authored-by`, or any AI attribution trailer to commit messages. gitBahn commits must look entirely human-authored.
+- **Batch confirmation**: Plan ALL commits first. Display a table showing each commit (order, file, proposed message, timestamp if applicable). Ask for confirmation ONCE. On approval, execute all commits without further prompts.
+
 ## How to Use
 
 When the user asks for "atomic commits", follow this workflow:
