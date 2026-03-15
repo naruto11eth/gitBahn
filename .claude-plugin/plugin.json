@@ -1,6 +1,6 @@
 {
   "name": "gitbahn",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "AI-powered git commits for Claude Code. Create realistic commit histories with smart splitting - no installation required.",
   "author": {
     "name": "naruto11eth"
