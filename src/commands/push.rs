@@ -267,7 +267,7 @@ fn generate_pr_body(repo: &git2::Repository, base: &str) -> Result<String> {
     }
 
     body.push_str("\n---\n");
-    body.push_str("*Created with [gitBahn](https://github.com/gitBahn)*");
+    body.push_str("*Created with [gitBahn](https://github.com/naruto11eth/gitBahn)*");
 
     Ok(body)
 }
