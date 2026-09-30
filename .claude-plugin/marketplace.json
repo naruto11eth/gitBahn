@@ -5,14 +5,14 @@
   },
   "metadata": {
     "description": "AI-powered git commits for Claude Code - no installation required",
-    "version": "0.3.0"
+    "version": "0.3.1"
   },
   "plugins": [
     {
       "name": "gitbahn",
       "source": "./",
       "description": "Create realistic git commit histories with AI. Split changes intelligently by language constructs, files, or diff hunks. Spread commits over time with realistic timestamps. No installation or API key required.",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "author": {
         "name": "naruto11eth"
       },
